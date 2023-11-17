@@ -1,6 +1,6 @@
 # PKU-Respiratory-Sound-Dataset
 
-The audio files are compressed and stored in `./Audio Files/`. Each file name is divided into **Patient ID** and **Recording index**, separated with hyphens (-). For example, `11-2.wav` means that patient ID is 11 and this is the second audio file from him/her. Each audio file has a text file with the same name. The .txt files, stored in `./TXT Files/`, contain information about the beginning and end of the breathing cycles. Each file comprises two columns, such as the following:  
+The audio files are compressed and stored in `./Audio Files/`. Each file name is divided into **patient ID** and **recording index**, separated with hyphens (-). For example, `11-2.wav` means that patient ID is 11 and this is the second audio file from him/her. Each audio file has a text file with the same name. The .txt files, stored in `./TXT Files/`, contain information about the beginning and end of the breathing cycles. Each file comprises two columns, such as the following:  
 ```
   1.17	2.68  
   2.68	4.91  
