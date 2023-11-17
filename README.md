@@ -1,12 +1,14 @@
 # PKU-Respiratory-Sound-Dataset
 
-Each file name is divided into two elements, separated with hyphens (-).  
-1. Patient ID (11, 12, ..., 70)
-2. Recording index
-
-The .txt files contain information about the beginning and end of the breathing cycles. Each file comprises two columns:  
-1. Beginning of breathing cycle(s)
-2. End of breathing cycle(s)
+The audio files are stored in `./Audio Files/`. Each file name is divided into **Patient ID** and **Recording index**, separated with hyphens (-). For example, `11-2.wav` means that patient ID is 11 and this is the second audio file from him/her. Each audio file has a text file with the same name. The .txt files, stored in `./TXT Files/`, contain information about the beginning and end of the breathing cycles. Each file comprises two columns, such as the following:  
+```
+  1.17	2.68  
+  2.68	4.91  
+  4.91	7.09  
+  7.09	10.03  
+  16.03	18.60  
+```
+The two columns separated by `tab` are beginning time and end time of breathing cycles. 
 
 The abbreviations used in the patient information file are:
 - COVID: Coronavirus Disease 2019
